@@ -33,3 +33,9 @@ npm run build
 ```sh
 npm run lint
 ```
+
+### format code with [prettier](https://prettier.io/)
+
+```sh
+npm run format
+```
