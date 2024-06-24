@@ -1,12 +1,13 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+import NavLink from '@/components/nav-link.vue'
 </script>
 
 <template>
   <header>
     <div class="wrapper">
       <nav class="navbar bg-primary text-secondary">
-        <router-link to="/" class="navbar-brand">
+        <router-link to="/" class="navbar-brand p-1 ms-3">
           <svg width="40" height="20" xmlns="http://www.w3.org/2000/svg">
             <svg height="30" width="200" xmlns="http://www.w3.org/2000/svg">
               <text x="10" y="15" fill="white">C</text>
@@ -15,8 +16,11 @@ import { RouterLink, RouterView } from 'vue-router'
             </svg>
           </svg>
         </router-link>
-        <RouterLink to="/" class="nav-item text-white">Home</RouterLink>
-        <RouterLink to="/about" class="nav-item text-white">About</RouterLink>
+        <div class="navbar-nav flex flex-row px-4">
+          <nav-link to="/">Home</nav-link>
+          <nav-link to="/about">About</nav-link>
+          <nav-link to="/contact">Contact</nav-link>
+        </div>
       </nav>
     </div>
   </header>
