@@ -1,4 +1,5 @@
-<script setup></script>
+<script setup>
+</script>
 
 <template>
   <main>
@@ -32,9 +33,8 @@
           >. In plaats van de reguliere vier jaar, rond ik deze opleiding af in drie jaar. Na mijn
           huidige studie wil ik graag verder studeren aan het HBO binnen de softwareontwikkeling.
         </p>
-<!--        todo: maybe make this a fixed max size -->
         <img
-          class="w-50 w-xl-25 m-5 rounded border border-primary border-3 shadow"
+          class="img-thumbnail img shadow"
           src="../../public/img/ik-staand-smaller.jpg"
           alt="een foto waar sta"
         />
@@ -42,3 +42,9 @@
     </div>
   </main>
 </template>
+
+<style>
+  .img {
+    max-height: 60rem;
+  }
+</style>
