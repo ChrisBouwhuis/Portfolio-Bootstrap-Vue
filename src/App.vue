@@ -18,7 +18,7 @@ import NavLink from '@/components/nav-link.vue'
         </router-link>
         <div class="navbar-nav flex flex-row px-4">
           <nav-link to="/">Home</nav-link>
-          <nav-link to="/about">About</nav-link>
+          <nav-link to="/projects">Projects</nav-link>
           <nav-link to="/contact">Contact</nav-link>
         </div>
       </nav>
