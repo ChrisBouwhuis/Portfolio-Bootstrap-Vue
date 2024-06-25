@@ -12,6 +12,7 @@
     </div>
     <div class="d-flex flex-column align-items-center">
       <h1 class="text-decoration-underline p-2">Wie ben ik?</h1>
+<!--      todo: use columns and containers-->
       <div
         class="d-flex flex-column flex-xl-row-reverse justify-content-center align-items-center align-items-xl-start"
       >
@@ -34,7 +35,7 @@
           huidige studie wil ik graag verder studeren aan het HBO binnen de softwareontwikkeling.
         </p>
         <img
-          class="img-thumbnail img shadow"
+          class="img-thumbnail img shadow "
           src="../../public/img/ik-staand-smaller.jpg"
           alt="een foto waar sta"
         />
