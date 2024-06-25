@@ -1,8 +1,7 @@
-<script setup>
-</script>
+<script setup></script>
 
 <template>
-  <main>
+  <main class="container">
     <div class="d-flex flex-column align-items-center p-5">
       <h1 class="p-2 mt-2 mb-3">Welkom op mijn portfolio website!</h1>
       <h2 class="p-1 fs-4">
@@ -12,11 +11,15 @@
     </div>
     <div class="d-flex flex-column align-items-center">
       <h1 class="text-decoration-underline p-2">Wie ben ik?</h1>
-<!--      todo: use columns and containers-->
-      <div
-        class="d-flex flex-column flex-xl-row-reverse justify-content-center align-items-center align-items-xl-start"
-      >
-        <p class="w-75 xl-w-50 fs-4 p-3 m-4">
+      <!--      todo: use columns and containers-->
+      <!--      class="d-flex flex-column flex-xl-row-reverse justify-content-center align-items-center align-items-xl-start"-->
+      <div class="row">
+        <img
+          class="img-thumbnail shadow col-6 col-xl-2"
+          src="../../public/img/ik-staand-smaller.jpg"
+          alt="een foto waar sta"
+        />
+        <p class="w-75 xl-w-50 fs-4 p-3 m-4 col-6 col-xl-4">
           Mijn naam is Chris Bouwhuis en ik kom uit het prachtige
           <a
             href="https://www.google.com/maps/place/Boekelo,+7548+EH+Enschede/@52.2042139,6.7961489,16z/data=!3m1!4b1!4m6!3m5!1s0x47b8128b300211e1:0x77daef0fb862139e!8m2!3d52.2042146!4d6.8012987!16zL20vMGZqaHRo?authuser=0&entry=ttu"
@@ -34,18 +37,7 @@
           >. In plaats van de reguliere vier jaar, rond ik deze opleiding af in drie jaar. Na mijn
           huidige studie wil ik graag verder studeren aan het HBO binnen de softwareontwikkeling.
         </p>
-        <img
-          class="img-thumbnail img shadow "
-          src="../../public/img/ik-staand-smaller.jpg"
-          alt="een foto waar sta"
-        />
       </div>
     </div>
   </main>
 </template>
-
-<style>
-  .img {
-    max-height: 60rem;
-  }
-</style>
