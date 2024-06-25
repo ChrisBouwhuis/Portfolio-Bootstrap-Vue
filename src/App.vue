@@ -5,8 +5,8 @@ import NavLink from '@/components/nav-link.vue'
 
 <template>
   <header>
-    <div class="wrapper">
-      <nav class="navbar bg-primary text-secondary">
+    <div class="wrapper mb-5">
+      <nav class="navbar bg-primary text-secondary fixed-top">
         <router-link to="/" class="navbar-brand p-1 ms-3">
           <svg width="40" height="20" xmlns="http://www.w3.org/2000/svg">
             <svg height="30" width="200" xmlns="http://www.w3.org/2000/svg">
