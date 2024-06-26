@@ -24,5 +24,4 @@ const props = defineProps({
   transform: scale(1.1);
   color: #e2e2d5;
 }
-
 </style>

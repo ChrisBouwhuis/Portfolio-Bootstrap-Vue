@@ -9,7 +9,7 @@ const props = defineProps({
 </script>
 
 <template>
-<!--  <router-link to="/contact" class="btn btn-primary hoverEffect">Hire me</router-link>-->
+  <!--  <router-link to="/contact" class="btn btn-primary hoverEffect">Hire me</router-link>-->
   <router-link :to="props.to" class="btn btn-primary hoverEffect m-1">
     <slot></slot>
   </router-link>
