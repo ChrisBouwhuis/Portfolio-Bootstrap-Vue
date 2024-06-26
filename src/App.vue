@@ -29,6 +29,8 @@ import NavLink from '@/components/nav-link.vue'
   </header>
 
   <RouterView />
+
+<!--  todo: create footer-->
 </template>
 
 <style scoped></style>
