@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+import LinkButton from '@/components/link-button.vue'
+</script>
 
 <template>
   <main class="container">
@@ -9,7 +11,10 @@
         <p class="fs-1 fw-semibold p-0 m-0">I'm <span class="fw-bold">Chris Bouwhuis</span></p>
         <p class="fs-2 m-0 text-highlight fw-medium">Full stack developer</p>
         <p class="fs-5">From Boekelo, The Netherlands</p>
-        <router-link to="/contact" class="btn btn-primary hoverEffect">Hire me</router-link>
+<!--        <router-link to="/contact" class="btn btn-primary hoverEffect">Hire me</router-link>-->
+        <link-button to="/contact">Hire me</link-button>
+        <link-button to="/about">get to know me</link-button>
+        <link-button to="/projects">My projects</link-button>
       </div>
       <div class="">
         <img
@@ -25,15 +30,5 @@
 <style scoped>
 .big-padding {
   padding-top: 6rem;
-}
-
-.hoverEffect {
-  transition: all 0.3s;
-}
-
-.hoverEffect:hover {
-  transform: scale(1.1);
-  background: linear-gradient(45deg, hsla(168, 85%, 52%, 0.5), hsla(263, 88%, 45%, 0.5) 100%);
-  color: black;
 }
 </style>
