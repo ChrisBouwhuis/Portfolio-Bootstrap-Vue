@@ -9,7 +9,20 @@ const props = defineProps({
 </script>
 
 <template>
-  <RouterLink class="nav-item text-white px-2 m-1 nav-link" :to="props.to">
+  <RouterLink class="nav-item px-2 m-1 nav-link hover" :to="props.to">
     <slot></slot>
   </RouterLink>
 </template>
+
+<style scoped>
+.hover {
+  color: white;
+  transition: all 0.3s;
+}
+
+.hover:hover {
+  transform: scale(1.1);
+  color: #e2e2d5;
+}
+
+</style>
