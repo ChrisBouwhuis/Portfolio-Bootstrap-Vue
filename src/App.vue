@@ -30,7 +30,11 @@ import NavLink from '@/components/nav-link.vue'
 
   <RouterView />
 
-<!--  todo: create footer-->
+  <footer class="bg-primary text-secondary fixed-bottom">
+    <div class="container">
+      <p class="text-center p-2">© 2024 Chris Bouwhuis</p>
+    </div>
+  </footer>
 </template>
 
 <style scoped></style>
