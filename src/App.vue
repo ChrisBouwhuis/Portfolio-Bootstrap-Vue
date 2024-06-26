@@ -6,7 +6,7 @@ import NavLink from '@/components/nav-link.vue'
 <template>
   <header>
     <div class="wrapper mb-5 p-2">
-      <navbar class="navbar bg-primary text-secondary fixed-top">
+      <nav class="navbar bg-primary text-secondary fixed-top">
         <div class="container">
           <router-link to="/" class="navbar-brand p-1">
             <svg width="40" height="20" xmlns="http://www.w3.org/2000/svg">
@@ -19,11 +19,12 @@ import NavLink from '@/components/nav-link.vue'
           </router-link>
           <div class="navbar-nav flex flex-row">
             <nav-link to="/">Home</nav-link>
+            <nav-link to="/about">About</nav-link>
             <nav-link to="/projects">Projects</nav-link>
             <nav-link to="/contact">Contact</nav-link>
           </div>
         </div>
-      </navbar>
+      </nav>
     </div>
   </header>
 

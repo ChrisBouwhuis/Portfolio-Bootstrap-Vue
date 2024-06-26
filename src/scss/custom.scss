@@ -1,4 +1,12 @@
 $primary: rgb(35, 51, 47);
 $secondary: #e2e2d5;
-// $theme-colors: (
+$hightlight: #fd0202;
+$theme-colors: (
+  'primary': $primary,
+  'secondary': $secondary,
+  'highlight': $hightlight
+);
+
+$enable-cssgrid: true;
+
 @import 'node_modules/bootstrap/scss/bootstrap.scss';
